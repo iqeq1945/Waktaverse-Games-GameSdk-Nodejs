@@ -2,6 +2,7 @@
 
 var q = require('openapi-fetch');
 var crypto$1 = require('crypto');
+var crypto = crypto$1;
 
 function _interopDefault (e) { return e && e.__esModule ? e : { default: e }; }
 
