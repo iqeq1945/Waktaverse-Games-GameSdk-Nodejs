@@ -1,6 +1,8 @@
 // Original source: https://github.com/ai/nanoid/blob/main/index.js
 // License: MIT, Modification/Distribution is allowed
 
+import crypto from 'crypto'; // crypto 모듈을 가져옵니다.
+
 const CHARS = 'abcdefghijklmnopqrstuvwxyz123456789';
 
 let pool: Buffer, poolOffset: number;
